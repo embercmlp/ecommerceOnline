@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+ "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+ "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+    <definition name="home.index"
+                template="/WEB-INF/jsp/templates/templateUser.jsp">
+        <put-attribute name="content" value="/WEB-INF/jsp/home/index.jsp"></put-attribute>
+    </definition>
+    <definition name="login.index"
+                template="/WEB-INF/jsp/templates/templateUser.jsp">
+        <put-attribute name="content" value="/WEB-INF/jsp/login/index.jsp"></put-attribute>
+    </definition>
+    <definition name="register.index"
+                    template="/WEB-INF/jsp/templates/templateUser.jsp">
+        <put-attribute name="content" value="/WEB-INF/jsp/register/index.jsp"></put-attribute>
+    </definition>
+    
+    <definition name="product.category" 
+                template="/WEB-INF/jsp/templates/templateUser.jsp">
+        <put-attribute name="content" value="/WEB-INF/jsp/product/category.jsp"></put-attribute>
+    </definition>
+    
+</tiles-definitions>
